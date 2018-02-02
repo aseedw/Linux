@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #===============================================
-# block comment
+# block comment * not recommended
 
 echo before comment
 : <<'END'
