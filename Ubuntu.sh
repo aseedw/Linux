@@ -1,6 +1,16 @@
 #!/bin/bash
 
 #===============================================
+# block comment
+
+echo before comment
+: <<'END'
+bla bla
+blurfl
+END
+echo after comment
+
+#===============================================
 # check os version
 
 lsb_release -a
