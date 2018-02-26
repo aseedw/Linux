@@ -1,6 +1,25 @@
 #!/bin/bash
 
 #===============================================
+# Set default value
+# source :　https://stackoverflow.com/questions/27445455/what-does-the-colon-dash-mean-in-bash
+
+### CASE 1 :
+$ x=
+$ echo ${x:-1}
+1
+$ echo $x
+
+$
+
+### CASE 2 :
+$ x=
+$ echo ${x:=1}
+1
+$ echo $x
+1
+
+#===============================================
 # block comment * not recommended
 
 echo before comment
