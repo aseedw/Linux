@@ -1,6 +1,11 @@
 #!/bin/bash
 
 #===============================================
+# Run Script in another terminal window
+
+gnome-terminal -x ./script_name.sh arg1 arg2 arg3 ...
+
+#===============================================
 # Set default value
 # source :　https://stackoverflow.com/questions/27445455/what-does-the-colon-dash-mean-in-bash
 
