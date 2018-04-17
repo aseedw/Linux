@@ -10,7 +10,7 @@ fi
 # the variable should be a float or double
 re='^[0-9]+([.][0-9]+)?$'
 
-# the variable should be a signed integer
+# the variable can be a negative number
 re='^-?[0-9]+([.][0-9]+)?$'
 
 
