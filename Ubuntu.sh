@@ -1,6 +1,20 @@
 #!/bin/bash
 
 #===============================================
+# the variable should be a unsigned integer
+re='^[0-9]+$'
+if ! [[ $yournumber =~ $re ]] ; then
+   echo "error: Not a number" >&2; exit 1
+fi
+
+# the variable should be a float or double
+re='^[0-9]+([.][0-9]+)?$'
+
+# the variable should be a signed integer
+re='^-?[0-9]+([.][0-9]+)?$'
+
+
+#===============================================
 # Run Script in another terminal window
 
 gnome-terminal -x ./script_name.sh arg1 arg2 arg3 ...
